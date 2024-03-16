@@ -3,14 +3,13 @@ This code converts netcdf 3D and 4D variable to binary format which you can open
 Change the variable "NCINC" and "NCLIB" in Makefile to provide the netcdf include and lib directory respectively. Then "make". It wil create an executable binary "nc2grid".
 ## How to run:
 ./nc2grid
- ****************************************************
  syntax to run:
  nc2grid <file> <dims (3 or 4)> <varname> <output>
  file: Name of the file to process
  dims (3 or 4): dimension of the variable to process
  varname: Variable name
  output: Name of the output file
- ****************************************************
+
  For example let's consider an netcdf file (xyz.nc) which contains a 3D variable abc(time,lat,lon). Then
  ./nc2grid xyz.nc 3 abc xyz.grd
  will create the corresponding binary file. To open it in grads generate the following xyz.ctl file
