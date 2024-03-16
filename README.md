@@ -1,7 +1,7 @@
 This code converts netcdf 3D and 4D variable to binary format which you can open using grads .ctl file. It is written in fortran language which can be compiled using any fortran compiler. Here I used intel fortran compiler. It also needs netcdf library to compile.
-**Installation:**
+## Installation:
 Change the variable "NCINC" and "NCLIB" in Makefile to provide the netcdf include and lib directory respectively. Then "make". It wil create an executable binary "nc2grid".
-**How to run:**
+## How to run:
 ./nc2grid
  ****************************************************
  syntax to run:
