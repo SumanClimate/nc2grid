@@ -25,4 +25,5 @@ TDEF        12 LINEAR 12Z15jan2015 1mo\
 VARS        1\
 test_var        1 9  test\
 ENDVARS\
-save it. Put the XDEF, YDEF form the netcdf file and don't forget to use OPTIONS YREV as netcdf considers latitude 90 to -90 but grads consider -90 to 90.
+save it. Put the XDEF, YDEF form the netcdf file.\
+## Don't forget to use OPTIONS YREV as netcdf considers latitude 90 to -90 but grads consider -90 to 90 ##
