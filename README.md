@@ -9,7 +9,7 @@ Change the variable "NCINC" and "NCLIB" in Makefile to provide the netcdf includ
  file: Name of the file to process\
  dims (3 or 4): dimension of the variable to process\
  varname: Variable name\
- output: Name of the output file
+ output: Name of the output file\n
 ****************************************\n
  For example let's consider an netcdf file (xyz.nc) which contains a 3D variable abc(time,lat,lon). Then
  ./nc2grid xyz.nc 3 abc xyz.grd
