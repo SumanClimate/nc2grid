@@ -2,7 +2,7 @@ This code converts netcdf 3D and 4D variable to binary format which you can open
 ## Installation:
 Change the variable "NCINC" and "NCLIB" in Makefile to provide the netcdf include and lib directory respectively. Then "make". It wil create an executable binary "nc2grid".
 ## How to run:
-./nc2grid
+./nc2grid\
 ****************************************\
  syntax to run:
  nc2grid <file> <dims (3 or 4)> <varname> <output>\
